@@ -513,6 +513,9 @@ footer ul li a:hover {
     #about {
         flex-wrap: wrap;
     }
+    .about-text{
+        margin-right: 45px;
+    }
     .promo {
         width: 100%;
         margin: 0 auto;
@@ -521,7 +524,7 @@ footer ul li a:hover {
         flex-wrap: wrap;
     }
     .cont {
-        width: 90%;
+        width: 100%;
     }
     .manager {
         margin-top: 50px;
@@ -549,6 +552,9 @@ footer ul li a:hover {
     }
     .item {
         margin: 20px;
+    }
+    .logo{
+        text-align: left;
     }
   }
 
