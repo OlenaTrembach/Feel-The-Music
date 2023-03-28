@@ -413,7 +413,7 @@ section.white {
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    width: 100px;
+    width: 100%;
 }
   
 #contact button[type="submit"]:hover {
@@ -530,6 +530,17 @@ footer ul li a:hover {
     h1 {
         font-size: 80px;
     }
+    section{
+        text-align: center;
+    }
+    .wrop-2 {
+        margin: 25px;
+        margin-left: 70px;
+        text-align: left;
+    }
+    section.white{
+        margin: 10px;
+    }
   }
 
 @media (max-width: 1024px) {
@@ -548,6 +559,12 @@ footer ul li a:hover {
     .logo {
         margin-top: 20px;
     }
+
+    .wrop-2 {
+        margin: 25px;
+        margin-left: 100px;
+        text-align: left;
+    }
 }
 
 @media (max-width: 768px) {
@@ -565,6 +582,7 @@ footer ul li a:hover {
     }
     .wrop-2 {
         margin: 25px;
+        text-align: left;
     }
     #about {
         margin: 0;
@@ -591,5 +609,36 @@ footer ul li a:hover {
     .single {
         margin: 50px 0 0 20px;
     }
+    section{
+        text-align: center;
+    }
+    .items{
+        justify-content: center;
+    }
 }
-
+@media (max-width: 480px) {
+    .link{
+        flex-wrap: wrap;
+    }
+    .logo-w .search-container input{
+        width: 250px;
+    }
+    .logo-w .search-icon{
+        left: 230px;
+    }
+    .search-container input{
+        width: 250px;
+    }
+    .search-icon{
+        left: 200px;
+    }
+    .player{
+        margin-left: 20px;
+    }
+    #contact button[type="submit"]{
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+}
